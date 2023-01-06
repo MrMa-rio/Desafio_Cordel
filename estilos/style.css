@@ -52,21 +52,44 @@ section{
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.144);
 }
 
+section p {
+
+    padding-bottom: 3em;
+}
+
 section.normal {
+    
     background-color: white;
+    
+}
+section.imagem{
+    box-shadow: inset 6px 6px 20px rgba(0, 0, 0, 0.568);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
     
 }
 section.imagem > p{
     border-radius: 3px;
-    background-color: rgba(0, 0, 0, 0.26);
-    width: 400px;
-    color: rgba(255, 255, 255, 0.747);
+    background-color: rgba(0, 0, 0, 0.308);
+    min-width: 250px;
+    max-width: 300px;
+    color: rgb(255, 255, 255);
     padding-left: 1%;
-    
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.418);
+}
+section#img01{
+    background-position:  center;
+    background-image: url('../imagens/background003.png');
+}
+section#img02{
+    background-image: url('../imagens/background002.jpg');
+    background-position: right center;
 }
 
 footer{
     background-image: linear-gradient(45deg,rgba(0, 0, 0, 0.555),black);
     color: white;
     padding: 4px;
+    text-align: center;
 }
